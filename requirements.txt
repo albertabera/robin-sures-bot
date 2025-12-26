@@ -1,0 +1,10 @@
+undetected-chromedriver
+selenium
+beautifulsoup4
+telethon
+fastapi
+python-dotenv
+requests
+uvicorn
+pandas
+python-telegram-bot[job-queue]

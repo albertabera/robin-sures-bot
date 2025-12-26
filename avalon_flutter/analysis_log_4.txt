@@ -1,0 +1,15 @@
+﻿Analyzing avalon_flutter...                                     
+
+warning - Unused import: '../models/role.dart' - lib\features\game\domain\logic\game_rules.dart:1:8 - unused_import
+  error - Missing concrete implementations of 'getter mixin _$GameState on Object.currentLeaderIndex', 'getter mixin _$GameState on Object.currentMissionIndex', 'getter mixin _$GameState on Object.currentPhase', 'getter mixin _$GameState on Object.currentTeamIds', and 7 more - lib\features\game\domain\models\game_state.dart:19:7 - non_abstract_class_inherits_abstract_member
+   info - Unnecessary use of '??' with 'null' - lib\features\game\domain\models\game_state.g.dart:41:40 - unnecessary_null_in_if_null_operators
+  error - Missing concrete implementations of 'getter mixin _$Mission on Object.failsRequired', 'getter mixin _$Mission on Object.missionNumber', 'getter mixin _$Mission on Object.requiredPlayers', 'getter mixin _$Mission on Object.result', and 3 more - lib\features\game\domain\models\mission.dart:13:7 - non_abstract_class_inherits_abstract_member
+  error - Missing concrete implementations of 'getter mixin _$Player on Object.id', 'getter mixin _$Player on Object.isLeader', 'getter mixin _$Player on Object.name', 'getter mixin _$Player on Object.role', and 1 more - lib\features\game\domain\models\player.dart:8:7 - non_abstract_class_inherits_abstract_member
+warning - The annotation 'JsonKey.new' can only be used on fields or getters - lib\features\game\domain\models\player.dart:12:6 - invalid_annotation_target
+warning - The value of the local variable 'userIds' isn't used - lib\features\game\presentation\controllers\game_controller.dart:104:13 - unused_local_variable
+warning - Unused import: 'package:animate_do/animate_do.dart' - lib\features\game\presentation\screens\game_screen.dart:7:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\game\presentation\screens\game_screen.dart:135:22 - deprecated_member_use
+warning - The value of the local variable 'isLeader' isn't used - lib\features\game\presentation\screens\game_screen.dart:200:12 - unused_local_variable
+warning - Unused import: 'package:avalon_flutter/features/game/domain/logic/game_rules.dart' - lib\features\setup\presentation\controllers\setup_controller.dart:3:8 - unused_import
+  error - The name 'MyApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+

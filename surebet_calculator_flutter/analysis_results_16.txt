@@ -1,0 +1,33 @@
+Analyzing surebet_calculator_flutter...                         
+
+warning - The value of the local variable 'anchor' isn't used - lib\core\csv_exporter.dart:44:11 - unused_local_variable
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\core\theme.dart:12:7 - deprecated_member_use
+  error - The argument type 'Future<void> Function(String, double, double, bool, {String? bookie, String? bookie1, String? bookie2, DateTime? date, double? odds1, double? odds2, double? stake1, double? stake2})' can't be assigned to the parameter type 'Future<bool> Function(String, double, double, {String? bookie, String? bookie1, String? bookie2, DateTime? date, bool isSurebet, double? odds1, double? odds2, double? stake1, double? stake2})'.  - lib\features\calculator\presentation\calculator_screen.dart:74:16 - argument_type_not_assignable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\calculator\presentation\calculator_screen.dart:127:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\calculator\presentation\calculator_screen.dart:154:69 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\calculator\presentation\calculator_screen.dart:157:85 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\calculator\presentation\calculator_screen.dart:351:69 - deprecated_member_use
+warning - Unused import: '../../../shared/widgets/neo_input.dart' - lib\features\tracker\presentation\tracker_screen.dart:6:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\tracker_screen.dart:134:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\tracker_screen.dart:136:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\tracker_screen.dart:396:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\tracker_screen.dart:438:40 - deprecated_member_use
+warning - Unused import: '../../domain/bet.dart' - lib\features\tracker\presentation\widgets\bet_dialog.dart:4:8 - unused_import
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\tracker\presentation\widgets\bet_dialog.dart:201:33 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\tracker\presentation\widgets\bet_dialog.dart:204:40 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\tracker\presentation\widgets\bet_dialog.dart:237:33 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\tracker\presentation\widgets\bet_dialog.dart:239:40 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\calendar_stats.dart:122:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\calendar_stats.dart:122:87 - deprecated_member_use
+warning - Unused import: 'package:intl/intl.dart' - lib\features\tracker\presentation\widgets\performance_chart.dart:3:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\performance_chart.dart:83:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\performance_chart.dart:84:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\profile_stats.dart:56:78 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\gradient_button.dart:32:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\neo_input.dart:41:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\result_card.dart:23:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\result_card.dart:26:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\result_card.dart:30:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\result_card.dart:71:24 - deprecated_member_use
+  error - The name 'SurebetCalculatorApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+

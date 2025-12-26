@@ -1,0 +1,52 @@
+Analyzing surebet_calculator_flutter...                         
+
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\core\theme.dart:12:7 - deprecated_member_use
+  error - 'odds3' isn't a field in the enclosing class - lib\features\calculator\domain\surebet_calculation.dart:10:5 - initializing_formal_for_non_existent_field
+  error - 'totalStake' isn't a field in the enclosing class - lib\features\calculator\domain\surebet_calculation.dart:11:5 - initializing_formal_for_non_existent_field
+  error - The getter 'odds3' isn't defined for the type 'SurebetCalculation' - lib\features\calculator\domain\surebet_calculation.dart:25:28 - undefined_getter
+  error - The getter 'totalStake' isn't defined for the type 'SurebetCalculation' - lib\features\calculator\domain\surebet_calculation.dart:26:38 - undefined_getter
+  error - Undefined name 'odds3' - lib\features\calculator\domain\surebet_calculation.dart:35:9 - undefined_identifier
+  error - Undefined name 'odds3' - lib\features\calculator\domain\surebet_calculation.dart:35:26 - undefined_identifier
+  error - Undefined name 'odds3' - lib\features\calculator\domain\surebet_calculation.dart:36:20 - undefined_identifier
+  error - Undefined name 'totalStake' - lib\features\calculator\domain\surebet_calculation.dart:60:18 - undefined_identifier
+  error - Undefined name 'totalStake' - lib\features\calculator\domain\surebet_calculation.dart:67:18 - undefined_identifier
+  error - Undefined name 'odds3' - lib\features\calculator\domain\surebet_calculation.dart:73:20 - undefined_identifier
+  error - Undefined name 'odds3' - lib\features\calculator\domain\surebet_calculation.dart:73:37 - undefined_identifier
+  error - Undefined name 'totalStake' - lib\features\calculator\domain\surebet_calculation.dart:74:18 - undefined_identifier
+  error - Undefined name 'odds3' - lib\features\calculator\domain\surebet_calculation.dart:74:36 - undefined_identifier
+  error - Undefined name 'totalStake' - lib\features\calculator\domain\surebet_calculation.dart:83:28 - undefined_identifier
+  error - Undefined name 'odds3' - lib\features\calculator\domain\surebet_calculation.dart:91:9 - undefined_identifier
+  error - Undefined name 'odds3' - lib\features\calculator\domain\surebet_calculation.dart:92:33 - undefined_identifier
+  error - The getter 'totalStake' isn't defined for the type 'SurebetCalculation' - lib\features\calculator\presentation\calculator_screen.dart:28:58 - undefined_getter
+  error - The getter 'totalStake' isn't defined for the type 'SurebetCalculation' - lib\features\calculator\presentation\calculator_screen.dart:28:87 - undefined_getter
+  error - The getter 'odds3' isn't defined for the type 'SurebetCalculation' - lib\features\calculator\presentation\calculator_screen.dart:31:58 - undefined_getter
+  error - The getter 'totalStake' isn't defined for the type 'SurebetCalculation' - lib\features\calculator\presentation\calculator_screen.dart:60:14 - undefined_getter
+  error - The getter 'totalStake' isn't defined for the type 'SurebetCalculation' - lib\features\calculator\presentation\calculator_screen.dart:70:28 - undefined_getter
+  error - The getter 'odds3' isn't defined for the type 'SurebetCalculation' - lib\features\calculator\presentation\calculator_screen.dart:83:32 - undefined_getter
+  error - The getter 'odds3' isn't defined for the type 'SurebetCalculation' - lib\features\calculator\presentation\calculator_screen.dart:204:88 - undefined_getter
+  error - The getter 'totalStake' isn't defined for the type 'SurebetCalculation' - lib\features\calculator\presentation\providers\calculator_provider.dart:48:27 - undefined_getter
+  error - The getter 'odds3' isn't defined for the type 'SurebetCalculation' - lib\features\calculator\presentation\providers\calculator_provider.dart:52:43 - undefined_getter
+warning - Unused import: '../../../shared/widgets/neo_input.dart' - lib\features\tracker\presentation\tracker_screen.dart:6:8 - unused_import
+warning - The value of the local variable 'won' isn't used - lib\features\tracker\presentation\tracker_screen.dart:44:9 - unused_local_variable
+warning - The value of the local variable 'lost' isn't used - lib\features\tracker\presentation\tracker_screen.dart:45:9 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\tracker_screen.dart:120:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\tracker_screen.dart:122:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\tracker_screen.dart:375:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\tracker_screen.dart:417:40 - deprecated_member_use
+warning - Unused import: '../../domain/bet.dart' - lib\features\tracker\presentation\widgets\bet_dialog.dart:4:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\calendar_stats.dart:123:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\calendar_stats.dart:123:87 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\calendar_stats.dart:153:49 - deprecated_member_use
+warning - Unused import: 'package:intl/intl.dart' - lib\features\tracker\presentation\widgets\performance_chart.dart:3:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\performance_chart.dart:83:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\performance_chart.dart:84:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\gradient_button.dart:30:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\neo_input.dart:38:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\result_card.dart:23:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\result_card.dart:26:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\result_card.dart:30:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\result_card.dart:71:24 - deprecated_member_use
+   info - The imported package 'surebet_calculator_flutter' isn't a dependency of the importing package - test\widget_test.dart:11:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:surebet_calculator_flutter/main.dart' - test\widget_test.dart:11:8 - uri_does_not_exist
+  error - The name 'SurebetCalculatorApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+

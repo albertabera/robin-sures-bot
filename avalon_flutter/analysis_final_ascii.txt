@@ -1,0 +1,28 @@
+Analyzing lib...                                                
+
+   info - Don't invoke 'print' in production code - lib\features\game\data\repositories\firebase_game_repository.dart:37:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\game\data\repositories\firebase_game_repository.dart:55:7 - avoid_print
+   info - Unnecessary use of '??' with 'null' - lib\features\game\domain\models\game_state.g.dart:41:40 - unnecessary_null_in_if_null_operators
+warning - Unused import: 'package:animate_do/animate_do.dart' - lib\features\game\presentation\screens\game_screen.dart:8:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\game\presentation\screens\game_screen.dart:138:22 - deprecated_member_use
+warning - The value of the local variable 'isLeader' isn't used - lib\features\game\presentation\screens\game_screen.dart:252:12 - unused_local_variable
+warning - The value of the local variable 'targetGood' isn't used - lib\features\setup\presentation\controllers\setup_controller.dart:78:9 - unused_local_variable
+warning - The value of the local variable 'currentGood' isn't used - lib\features\setup\presentation\controllers\setup_controller.dart:81:9 - unused_local_variable
+   info - Statements in an if should be enclosed in a block - lib\features\setup\presentation\controllers\setup_controller.dart:99:24 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\features\setup\presentation\controllers\setup_controller.dart:99:44 - curly_braces_in_flow_control_structures
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\how_to_play_screen.dart:103:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\how_to_play_screen.dart:105:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\how_to_play_screen.dart:113:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\how_to_play_screen.dart:146:32 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\features\setup\presentation\lobby_screen.dart:68:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\features\setup\presentation\lobby_screen.dart:89:30 - use_build_context_synchronously
+warning - The value of the local variable 'currentState' isn't used - lib\features\setup\presentation\lobby_screen.dart:122:14 - unused_local_variable
+   info - Don't use 'BuildContext's across async gaps - lib\features\setup\presentation\lobby_screen.dart:135:30 - use_build_context_synchronously
+warning - Unused import: 'package:avalon_flutter/core/theme/app_theme.dart' - lib\features\setup\presentation\mode_selection_screen.dart:1:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\mode_selection_screen.dart:68:24 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\mode_selection_screen.dart:70:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\mode_selection_screen.dart:77:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\mode_selection_screen.dart:93:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\setup_screen.dart:234:30 - deprecated_member_use
+warning - Unused import: 'package:avalon_flutter/core/theme/app_theme.dart' - lib\features\setup\presentation\waiting_room_screen.dart:1:8 - unused_import
+

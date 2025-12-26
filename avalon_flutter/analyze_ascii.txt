@@ -1,0 +1,111 @@
+Analyzing lib...                                                
+
+   info - Don't invoke 'print' in production code - lib\features\game\data\repositories\firebase_game_repository.dart:37:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\game\data\repositories\firebase_game_repository.dart:55:7 - avoid_print
+   info - Unnecessary use of '??' with 'null' - lib\features\game\domain\models\game_state.g.dart:41:40 - unnecessary_null_in_if_null_operators
+warning - The annotation 'JsonKey.new' can only be used on fields or getters - lib\features\game\domain\models\player.dart:12:6 - invalid_annotation_target
+   info - 'ignore' is deprecated and shouldn't be used. Use `includeFromJson` and `includeToJson` with a value of `false` instead - lib\features\game\domain\models\player.dart:12:14 - deprecated_member_use
+  error - The function 'StateProvider' isn't defined - lib\features\game\presentation\controllers\game_repository_provider.dart:6:32 - undefined_function
+warning - Unused import: 'package:animate_do/animate_do.dart' - lib\features\game\presentation\screens\game_screen.dart:8:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\game\presentation\screens\game_screen.dart:138:22 - deprecated_member_use
+warning - The value of the local variable 'isLeader' isn't used - lib\features\game\presentation\screens\game_screen.dart:252:12 - unused_local_variable
+  error - The name 'Role' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:17:37 - non_type_as_type_argument
+  error - The name 'RoleType' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:17:66 - non_type_as_type_argument
+  error - Undefined name 'JsonKey' used as an annotation - lib\features\setup\domain\models\setup_state.freezed.dart:20:1 - undefined_annotation
+  error - The name 'SetupState' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:22:21 - non_type_as_type_argument
+  error - The name 'SetupState' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:22:74 - non_type_as_type_argument
+  error - The name 'SetupState' isn't a type, so it can't be used in an 'as' expression - lib\features\setup\domain\models\setup_state.freezed.dart:22:94 - cast_to_non_type
+  error - The name 'SetupState' isn't defined, so it can't be used in an 'is' expression - lib\features\setup\domain\models\setup_state.freezed.dart:28:80 - type_test_with_undefined_name
+  error - The name 'DeepCollectionEquality' isn't a class - lib\features\setup\domain\models\setup_state.freezed.dart:28:98 - creation_with_non_type
+  error - The getter 'playerNames' isn't defined for the type 'Object' - lib\features\setup\domain\models\setup_state.freezed.dart:28:136 - undefined_getter
+  error - The name 'DeepCollectionEquality' isn't a class - lib\features\setup\domain\models\setup_state.freezed.dart:28:169 - creation_with_non_type
+  error - The getter 'selectedRoles' isn't defined for the type 'Object' - lib\features\setup\domain\models\setup_state.freezed.dart:28:207 - undefined_getter
+  error - The name 'DeepCollectionEquality' isn't a class - lib\features\setup\domain\models\setup_state.freezed.dart:28:244 - creation_with_non_type
+  error - The getter 'manualSelection' isn't defined for the type 'Object' - lib\features\setup\domain\models\setup_state.freezed.dart:28:282 - undefined_getter
+  error - The name 'DeepCollectionEquality' isn't a class - lib\features\setup\domain\models\setup_state.freezed.dart:33:51 - creation_with_non_type
+  error - The name 'DeepCollectionEquality' isn't a class - lib\features\setup\domain\models\setup_state.freezed.dart:33:100 - creation_with_non_type
+  error - The name 'DeepCollectionEquality' isn't a class - lib\features\setup\domain\models\setup_state.freezed.dart:33:151 - creation_with_non_type
+  error - Undefined class 'SetupState' - lib\features\setup\domain\models\setup_state.freezed.dart:45:31 - undefined_class
+  error - Undefined class 'SetupState' - lib\features\setup\domain\models\setup_state.freezed.dart:45:63 - undefined_class
+  error - Undefined name 'useResult' used as an annotation - lib\features\setup\domain\models\setup_state.freezed.dart:46:1 - undefined_annotation
+  error - The name 'Role' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:48:33 - non_type_as_type_argument
+  error - The name 'RoleType' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:48:58 - non_type_as_type_argument
+  error - Undefined class 'SetupState' - lib\features\setup\domain\models\setup_state.freezed.dart:60:9 - undefined_class
+  error - Undefined class 'SetupState' - lib\features\setup\domain\models\setup_state.freezed.dart:61:23 - undefined_class
+  error - The name 'Role' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:69:9 - non_type_as_type_argument
+  error - The name 'RoleType' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:70:8 - non_type_as_type_argument
+  error - Undefined class 'SetupState' - lib\features\setup\domain\models\setup_state.freezed.dart:78:33 - undefined_class
+  error - Undefined name 'optionalTypeArgs' used as an annotation - lib\features\setup\domain\models\setup_state.freezed.dart:91:1 - undefined_annotation
+  error - Undefined name 'optionalTypeArgs' used as an annotation - lib\features\setup\domain\models\setup_state.freezed.dart:113:1 - undefined_annotation
+warning - Dead code - lib\features\setup\domain\models\setup_state.freezed.dart:117:24 - dead_code
+warning - Dead code - lib\features\setup\domain\models\setup_state.freezed.dart:118:3 - dead_code
+  error - Undefined name 'optionalTypeArgs' used as an annotation - lib\features\setup\domain\models\setup_state.freezed.dart:134:1 - undefined_annotation
+  error - Undefined name 'optionalTypeArgs' used as an annotation - lib\features\setup\domain\models\setup_state.freezed.dart:155:1 - undefined_annotation
+  error - The name 'Role' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:155:112 - non_type_as_type_argument
+  error - The name 'RoleType' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:155:138 - non_type_as_type_argument
+  error - Undefined name 'optionalTypeArgs' used as an annotation - lib\features\setup\domain\models\setup_state.freezed.dart:176:1 - undefined_annotation
+  error - The name 'Role' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:176:107 - non_type_as_type_argument
+  error - The name 'RoleType' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:176:133 - non_type_as_type_argument
+warning - Dead code - lib\features\setup\domain\models\setup_state.freezed.dart:179:78 - dead_code
+warning - Dead code - lib\features\setup\domain\models\setup_state.freezed.dart:180:3 - dead_code
+  error - Undefined name 'optionalTypeArgs' used as an annotation - lib\features\setup\domain\models\setup_state.freezed.dart:196:1 - undefined_annotation
+  error - The name 'Role' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:196:115 - non_type_as_type_argument
+  error - The name 'RoleType' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:196:141 - non_type_as_type_argument
+  error - Classes and mixins can only implement other classes and mixins - lib\features\setup\domain\models\setup_state.freezed.dart:210:30 - implements_non_class
+  error - The name 'Role' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:211:78 - non_type_as_type_argument
+  error - The name 'RoleType' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:211:121 - non_type_as_type_argument
+  error - The name 'RoleType' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:211:156 - non_type_as_type_argument
+  error - Undefined name 'JsonKey' used as an annotation - lib\features\setup\domain\models\setup_state.freezed.dart:215:10 - undefined_annotation
+warning - The getter doesn't override an inherited getter - lib\features\setup\domain\models\setup_state.freezed.dart:215:38 - override_on_non_overriding_member
+  error - The name 'EqualUnmodifiableListView' isn't defined, so it can't be used in an 'is' expression - lib\features\setup\domain\models\setup_state.freezed.dart:216:23 - type_test_with_undefined_name
+warning - Dead code - lib\features\setup\domain\models\setup_state.freezed.dart:218:3 - dead_code
+  error - The method 'EqualUnmodifiableListView' isn't defined for the type '_SetupState' - lib\features\setup\domain\models\setup_state.freezed.dart:218:10 - undefined_method
+  error - The name 'Role' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:221:14 - non_type_as_type_argument
+  error - Undefined name 'JsonKey' used as an annotation - lib\features\setup\domain\models\setup_state.freezed.dart:222:10 - undefined_annotation
+  error - The name 'Role' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:222:26 - non_type_as_type_argument
+warning - The getter doesn't override an inherited getter - lib\features\setup\domain\models\setup_state.freezed.dart:222:36 - override_on_non_overriding_member
+  error - The name 'EqualUnmodifiableListView' isn't defined, so it can't be used in an 'is' expression - lib\features\setup\domain\models\setup_state.freezed.dart:223:25 - type_test_with_undefined_name
+warning - Dead code - lib\features\setup\domain\models\setup_state.freezed.dart:225:3 - dead_code
+  error - The method 'EqualUnmodifiableListView' isn't defined for the type '_SetupState' - lib\features\setup\domain\models\setup_state.freezed.dart:225:10 - undefined_method
+  error - The name 'RoleType' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:228:13 - non_type_as_type_argument
+  error - Undefined name 'JsonKey' used as an annotation - lib\features\setup\domain\models\setup_state.freezed.dart:229:10 - undefined_annotation
+  error - The name 'RoleType' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:229:25 - non_type_as_type_argument
+warning - The getter doesn't override an inherited getter - lib\features\setup\domain\models\setup_state.freezed.dart:229:39 - override_on_non_overriding_member
+  error - The name 'EqualUnmodifiableSetView' isn't defined, so it can't be used in an 'is' expression - lib\features\setup\domain\models\setup_state.freezed.dart:230:27 - type_test_with_undefined_name
+warning - Dead code - lib\features\setup\domain\models\setup_state.freezed.dart:232:3 - dead_code
+  error - The method 'EqualUnmodifiableSetView' isn't defined for the type '_SetupState' - lib\features\setup\domain\models\setup_state.freezed.dart:232:10 - undefined_method
+  error - Undefined name 'JsonKey' used as an annotation - lib\features\setup\domain\models\setup_state.freezed.dart:238:11 - undefined_annotation
+warning - The getter doesn't override an inherited getter - lib\features\setup\domain\models\setup_state.freezed.dart:240:39 - override_on_non_overriding_member
+  error - The name 'DeepCollectionEquality' isn't a class - lib\features\setup\domain\models\setup_state.freezed.dart:246:99 - creation_with_non_type
+  error - The name 'DeepCollectionEquality' isn't a class - lib\features\setup\domain\models\setup_state.freezed.dart:246:172 - creation_with_non_type
+  error - The name 'DeepCollectionEquality' isn't a class - lib\features\setup\domain\models\setup_state.freezed.dart:246:249 - creation_with_non_type
+  error - The name 'DeepCollectionEquality' isn't a class - lib\features\setup\domain\models\setup_state.freezed.dart:251:51 - creation_with_non_type
+  error - The name 'DeepCollectionEquality' isn't a class - lib\features\setup\domain\models\setup_state.freezed.dart:251:101 - creation_with_non_type
+  error - The name 'DeepCollectionEquality' isn't a class - lib\features\setup\domain\models\setup_state.freezed.dart:251:153 - creation_with_non_type
+  error - Undefined name 'useResult' used as an annotation - lib\features\setup\domain\models\setup_state.freezed.dart:264:11 - undefined_annotation
+  error - The name 'Role' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:266:33 - non_type_as_type_argument
+  error - The name 'RoleType' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:266:58 - non_type_as_type_argument
+  error - The name 'Role' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:287:9 - non_type_as_type_argument
+  error - The name 'RoleType' isn't a type, so it can't be used as a type argument - lib\features\setup\domain\models\setup_state.freezed.dart:288:8 - non_type_as_type_argument
+warning - The value of the local variable 'targetGood' isn't used - lib\features\setup\presentation\controllers\setup_controller.dart:78:9 - unused_local_variable
+warning - The value of the local variable 'currentGood' isn't used - lib\features\setup\presentation\controllers\setup_controller.dart:81:9 - unused_local_variable
+   info - Statements in an if should be enclosed in a block - lib\features\setup\presentation\controllers\setup_controller.dart:99:24 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\features\setup\presentation\controllers\setup_controller.dart:99:44 - curly_braces_in_flow_control_structures
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\how_to_play_screen.dart:103:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\how_to_play_screen.dart:105:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\how_to_play_screen.dart:113:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\how_to_play_screen.dart:146:32 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\features\setup\presentation\lobby_screen.dart:68:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\features\setup\presentation\lobby_screen.dart:89:30 - use_build_context_synchronously
+warning - The value of the local variable 'currentState' isn't used - lib\features\setup\presentation\lobby_screen.dart:122:14 - unused_local_variable
+   info - Don't use 'BuildContext's across async gaps - lib\features\setup\presentation\lobby_screen.dart:135:30 - use_build_context_synchronously
+warning - Unused import: 'package:avalon_flutter/core/theme/app_theme.dart' - lib\features\setup\presentation\mode_selection_screen.dart:1:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\mode_selection_screen.dart:68:24 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\mode_selection_screen.dart:70:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\mode_selection_screen.dart:77:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\mode_selection_screen.dart:93:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\setup_screen.dart:234:30 - deprecated_member_use
+warning - Unused import: 'package:avalon_flutter/core/theme/app_theme.dart' - lib\features\setup\presentation\waiting_room_screen.dart:1:8 - unused_import
+  error - Directives must appear before any declarations - lib\main.dart:23:1 - directive_after_declaration
+  error - Undefined name 'AppTheme' - lib\main.dart:32:14 - undefined_identifier
+

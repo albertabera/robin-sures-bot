@@ -1,0 +1,24 @@
+Analyzing lib...                                                
+
+   info - Don't invoke 'print' in production code - lib\features\game\data\repositories\firebase_game_repository.dart:39:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\game\data\repositories\firebase_game_repository.dart:57:7 - avoid_print
+   info - Unnecessary use of '??' with 'null' - lib\features\game\domain\models\game_state.g.dart:41:40 - unnecessary_null_in_if_null_operators
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\game\presentation\screens\game_screen.dart:139:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\how_to_play_screen.dart:103:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\how_to_play_screen.dart:105:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\how_to_play_screen.dart:113:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\how_to_play_screen.dart:146:32 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\features\setup\presentation\lobby_screen.dart:81:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\features\setup\presentation\lobby_screen.dart:102:30 - use_build_context_synchronously
+warning - The value of the local variable 'currentData' isn't used - lib\features\setup\presentation\lobby_screen.dart:134:14 - unused_local_variable
+  error - Invalid constant value - lib\features\setup\presentation\mode_selection_screen.dart:28:26 - invalid_constant
+  error - Undefined name 'AppTheme' - lib\features\setup\presentation\mode_selection_screen.dart:28:26 - undefined_identifier
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\mode_selection_screen.dart:88:24 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\mode_selection_screen.dart:90:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\mode_selection_screen.dart:97:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\mode_selection_screen.dart:113:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\setup\presentation\setup_screen.dart:234:30 - deprecated_member_use
+warning - The value of the local variable 'good' isn't used - lib\features\setup\presentation\waiting_room_screen.dart:116:12 - unused_local_variable
+   info - Don't invoke 'print' in production code - lib\main.dart:19:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\main.dart:29:6 - avoid_print
+

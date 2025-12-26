@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment Variables
+.env
+.env.local
+
+# Sensitive Data
+# bethero_cookies.json
+bot_session.session
+*.session
+*.session-journal
+
+# Database (Optional: Upload if you want to keep users, ignore if you want fresh DB)
+# surebets.db
+# Keeping DB in repo is usually bad practice for frequent writes, but for this simple bot it might be okay for initial state.
+# However, Render file system is ephemeral, so DB changes won't persist across deploys unless using a Volume.
+# For now, let's allow it so user keeps their settings, but warn about persistence.
+# actually, let's ignore it to force fresh creation or volume usage, BUT user has data.
+# Let's Upload it for now so they don't start empty.
+# surebets.db
+
+# IDE
+.vscode/
+.idea/

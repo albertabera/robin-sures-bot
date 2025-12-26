@@ -1,0 +1,112 @@
+[
+  {
+    "domain": ".betherosports.com",
+    "expiry": 1774520521,
+    "httpOnly": false,
+    "name": "ttcsid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1766744485862::pAW42ZphIcT92hX7TaLp.1.1766744521546.0"
+  },
+  {
+    "domain": "app.betherosports.com",
+    "expiry": 1801304517,
+    "httpOnly": true,
+    "name": "known_user",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "true"
+  },
+  {
+    "domain": ".betherosports.com",
+    "expiry": 1774520521,
+    "httpOnly": false,
+    "name": "ttcsid_D058ADRC77UDFM0FTURG",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1766744485861::nh4Kp8b07S4flEQ--YXO.1.1766744521546.1"
+  },
+  {
+    "domain": ".betherosports.com",
+    "expiry": 1769336516,
+    "httpOnly": false,
+    "name": "auth_session",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "qgrb2y7odpshfx34scoyyrf7ivr7sthbp2fzed4u"
+  },
+  {
+    "domain": ".betherosports.com",
+    "expiry": 1801304520,
+    "httpOnly": false,
+    "name": "_ga_LX2XPSSDDH",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "GS2.1.s1766744485$o1$g1$t1766744520$j25$l0$h0"
+  },
+  {
+    "domain": ".betherosports.com",
+    "expiry": 1774520517,
+    "httpOnly": false,
+    "name": "_rdt_uuid",
+    "path": "/",
+    "sameSite": "Strict",
+    "secure": true,
+    "value": "1766744485629.29ed1236-f4e1-4e45-8d92-277a7bb9fc60"
+  },
+  {
+    "domain": ".betherosports.com",
+    "expiry": 1774520485,
+    "httpOnly": false,
+    "name": "_gcl_au",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1.1.1979598006.1766744485.724313173.1766744497.1766744516"
+  },
+  {
+    "domain": ".betherosports.com",
+    "expiry": 1774520519,
+    "httpOnly": false,
+    "name": "_fbp",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "fb.1.1766744485907.295869091530690563"
+  },
+  {
+    "domain": ".betherosports.com",
+    "expiry": 1774520517,
+    "httpOnly": false,
+    "name": "_ttp",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "01KDD2TVZ0HJV64W9YSS8K8ZTS_.tt.1"
+  },
+  {
+    "domain": ".betherosports.com",
+    "expiry": 1774520517,
+    "httpOnly": false,
+    "name": "_tt_enable_cookie",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1"
+  },
+  {
+    "domain": ".betherosports.com",
+    "expiry": 1801304517,
+    "httpOnly": false,
+    "name": "_ga",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "GA1.1.1305647666.1766744485"
+  }
+]

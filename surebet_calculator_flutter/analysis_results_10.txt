@@ -1,0 +1,55 @@
+Analyzing surebet_calculator_flutter...                         
+
+warning - The value of the local variable 'anchor' isn't used - lib\core\csv_exporter.dart:44:11 - unused_local_variable
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\core\theme.dart:12:7 - deprecated_member_use
+  error - Undefined name 'trackerProvider' - lib\features\calculator\presentation\calculator_screen.dart:57:38 - undefined_identifier
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\calculator\presentation\calculator_screen.dart:127:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\calculator\presentation\calculator_screen.dart:154:69 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\calculator\presentation\calculator_screen.dart:157:85 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\calculator\presentation\calculator_screen.dart:351:69 - deprecated_member_use
+  error - Target of URI doesn't exist: 'widgets/premium_provider.dart' - lib\features\tracker\presentation\tracker_provider.dart:8:8 - uri_does_not_exist
+  error - The method '_loadBets' isn't defined for the type 'TrackerNotifier' - lib\features\tracker\presentation\tracker_provider.dart:13:5 - undefined_method
+warning - Dead code - lib\features\tracker\presentation\tracker_provider.dart:15:1 - dead_code
+  error - 'class' can't be used as an identifier because it's a keyword - lib\features\tracker\presentation\tracker_provider.dart:15:1 - expected_identifier_but_got_keyword
+  error - Expected a statement - lib\features\tracker\presentation\tracker_provider.dart:15:1 - missing_statement
+  error - Expected to find ';' - lib\features\tracker\presentation\tracker_provider.dart:15:1 - expected_token
+  error - Undefined name 'class' - lib\features\tracker\presentation\tracker_provider.dart:15:1 - undefined_identifier
+  error - Expected to find ';' - lib\features\tracker\presentation\tracker_provider.dart:15:7 - expected_token
+  error - 'extends' can't be used as an identifier because it's a keyword - lib\features\tracker\presentation\tracker_provider.dart:15:23 - expected_identifier_but_got_keyword
+  error - Expected a statement - lib\features\tracker\presentation\tracker_provider.dart:15:23 - missing_statement
+  error - Expected to find ';' - lib\features\tracker\presentation\tracker_provider.dart:15:23 - expected_token
+  error - Undefined name 'extends' - lib\features\tracker\presentation\tracker_provider.dart:15:23 - undefined_identifier
+  error - Undefined name 'StateNotifier' - lib\features\tracker\presentation\tracker_provider.dart:15:31 - undefined_identifier
+  error - A comparison expression can't be an operand of another comparison expression - lib\features\tracker\presentation\tracker_provider.dart:15:49 - equality_cannot_be_equality_operand
+  error - The operator '>>' isn't defined for the type 'Type' - lib\features\tracker\presentation\tracker_provider.dart:15:53 - undefined_operator
+  error - Expected an identifier - lib\features\tracker\presentation\tracker_provider.dart:16:3 - missing_identifier
+  error - Expected to find '}' - lib\features\tracker\presentation\tracker_provider.dart:16:3 - expected_token
+  error - Expected to find ';' - lib\features\tracker\presentation\tracker_provider.dart:132:1 - expected_token
+warning - The value of the local variable 'trackerProvider' isn't used - lib\features\tracker\presentation\tracker_provider.dart:134:7 - unused_local_variable
+  error - The method 'StateNotifierProvider' isn't defined for the type 'TrackerNotifier' - lib\features\tracker\presentation\tracker_provider.dart:134:25 - undefined_method
+  error - Too many positional arguments: 0 expected, but 2 found - lib\features\tracker\presentation\tracker_provider.dart:136:26 - extra_positional_arguments
+  error - Expected to find '}' - lib\features\tracker\presentation\tracker_provider.dart:138:1 - expected_token
+  error - Undefined name 'trackerProvider' - lib\features\tracker\presentation\tracker_screen.dart:28:31 - undefined_identifier
+  error - Undefined name 'trackerProvider' - lib\features\tracker\presentation\tracker_screen.dart:29:31 - undefined_identifier
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\tracker_screen.dart:129:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\tracker_screen.dart:131:57 - deprecated_member_use
+  error - The getter 'addBet' isn't defined for the type 'TrackerNotifier' - lib\features\tracker\presentation\tracker_screen.dart:256:27 - undefined_getter
+  error - The method 'updateStatus' isn't defined for the type 'TrackerNotifier' - lib\features\tracker\presentation\tracker_screen.dart:378:33 - undefined_method
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\tracker_screen.dart:384:60 - deprecated_member_use
+  error - The method 'deleteBet' isn't defined for the type 'TrackerNotifier' - lib\features\tracker\presentation\tracker_screen.dart:403:41 - undefined_method
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\tracker_screen.dart:426:40 - deprecated_member_use
+warning - Unused import: '../../domain/bet.dart' - lib\features\tracker\presentation\widgets\bet_dialog.dart:4:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\calendar_stats.dart:122:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\calendar_stats.dart:122:87 - deprecated_member_use
+warning - Unused import: 'package:intl/intl.dart' - lib\features\tracker\presentation\widgets\performance_chart.dart:3:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\performance_chart.dart:83:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\performance_chart.dart:84:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\tracker\presentation\widgets\profile_stats.dart:56:78 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\gradient_button.dart:32:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\neo_input.dart:41:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\result_card.dart:23:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\result_card.dart:26:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\result_card.dart:30:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\result_card.dart:71:24 - deprecated_member_use
+  error - The name 'SurebetCalculatorApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+
